@@ -14731,9 +14731,9 @@ F_TRAINER_FEMALE |
 #line 5944
         .trainerName = _("CALVIN"),
 #line 5945
-        .trainerClass = TRAINER_CLASS_YOUNGSTER,
+        .trainerClass = TRAINER_CLASS_SHADOW_SLAYER,
 #line 5946
-        .trainerPic = TRAINER_PIC_YOUNGSTER,
+        .trainerPic = TRAINER_PIC_SPARK_LEADER,
         .encounterMusic_gender = 
 #line 5948
             TRAINER_ENCOUNTER_MUSIC_MALE,

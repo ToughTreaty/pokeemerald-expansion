@@ -127,6 +127,9 @@ static const u16 sMugshotPal_Lucas[] = INCBIN_U16("graphics/mugshots/lucas.gbapa
 static const u32 sMugshotImg_Ghetsis[] = INCBIN_U32("graphics/mugshots/ghetsis.4bpp.lz");
 static const u16 sMugshotPal_Ghetsis[] = INCBIN_U16("graphics/mugshots/ghetsis.gbapal");
 
+static const u32 sMugshotImg_Maid[] = INCBIN_U32("graphics/mugshots/maid.4bpp.lz");
+static const u16 sMugshotPal_Maid[] = INCBIN_U16("graphics/mugshots/maid.gbapal");
+
 
 static const struct Mugshot sMugshots[] = {
 [MUGSHOT_BLAINE] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Blaine, .palette = sMugshotPal_Blaine},
@@ -164,6 +167,7 @@ static const struct Mugshot sMugshots[] = {
 [MUGSHOT_PETREL] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Petrel, .palette =  sMugshotPal_Petrel},
 [MUGSHOT_GHETSIS] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Ghetsis, .palette =  sMugshotPal_Ghetsis},
 [MUGSHOT_LUCAS] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Lucas, .palette =  sMugshotPal_Lucas},
+[MUGSHOT_MAID] = {.x = 20, .y = 6, .width = 64, .height = 64, .image = sMugshotImg_Maid, .palette =  sMugshotPal_Maid},
     //ADD YOUR MUGSHOTS HERE
 };
 
