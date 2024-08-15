@@ -759,6 +759,8 @@ u8 BattleSetup_GetTerrainId(void)
         return BATTLE_TERRAIN_LONG_GRASS;
     if (MetatileBehavior_IsSandOrDeepSand(tileBehavior))
         return BATTLE_TERRAIN_SAND;
+    if (MetatileBehavior_IsForest(tileBehavior))
+        return BATTLE_TERRAIN_FOREST;
 
     switch (gMapHeader.mapType)
     {
